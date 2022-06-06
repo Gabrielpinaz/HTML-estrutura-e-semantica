@@ -1,0 +1,582 @@
+:root {
+    --color-green: #38AF90;
+    --color-white:#FFFFFF;
+    --color-ligh-grey:#E5E5E5;
+    --color-grey: #F0F0F0;
+    --color-pink: #DD7E92;
+    --color-black:#797979;
+    --color-dark-black:#383838;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: var(--color-green); 
+    box-shadow: 8px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.nav-main {
+    width: 100%;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.nav-main h1 {
+    color: var(--color-white);
+    margin: 0;
+    font-size: 18px;
+}
+
+.nav-main a {
+    text-decoration: none;
+    color: var(--color-white)
+}
+
+.nav-main img {
+    width: 62px;
+    height: 62px;
+}
+
+.menu-items {
+    display: none;
+}
+
+#news {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.text-news h2 {
+    color: var(--color-black);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+.card-news {
+    background-color: var(--color-grey);
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 10px 28px 10px;
+}
+
+.card-news h3 {
+    color: var(--color-green);
+    font-size: 16px;
+    padding: 16px 12px 0 12px ;
+    margin: 0;
+}
+
+.card-news h4 {
+    color: var(--color-black);
+    font-size: 12px;
+    margin: 0;
+    padding: 0 12px;
+}
+
+.date {
+    padding: 0 0 0 12px;
+}
+
+.date p {
+    color: var(--color-green);
+    font-size: 10px;
+    margin: 0;
+}
+
+.date hr {
+    width: 263px;
+    border-top: 1px solid var(--color-green);
+    margin: 0;
+}
+
+.text-config p {
+    margin: 0;
+}
+
+.text-config {
+    color: var(--color-black);
+    font-size: 10px;
+    padding: 12px;
+    margin-bottom: 0;
+}
+
+.read-more h4 {
+    color: var(--color-pink);
+    font-size: 14px;
+    padding: 0 0 12px 12px;
+    margin: 0;
+}
+
+.text-games h2 {
+    color: var(--color-green);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+}
+
+.load-more button {
+    width: 244px;
+    height: 67px;
+    background-color: var(--color-pink);
+    font-size: 18px;
+    color: var(--color-white);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+#games {
+    background-color: var(--color-grey);
+}
+
+.card-container {
+    background-color: var(--color-white);
+    border-radius: 8px;
+    width: 280px;
+    margin-bottom: 27px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin: 0 10px 27px 10px;
+}
+
+.card-container img {
+    border-radius: 8px 8px 0 0;
+    width: 280px;
+}
+
+.card-game h3 {
+    color: var(--color-black);
+    font-size: 18px;
+    margin: 0;
+    padding-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-game span {
+    color: var(--color-green);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-game p {
+    color: var(--color-black);
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 0 47px;
+}
+
+.card-game h2 {
+    color: var(--color-green);
+    font-size: 36px;
+    padding: 13px 0 15px 124px;
+    margin: 0;
+}
+
+.name-container label {
+    display: none;
+}
+
+.subscription h2 {
+    color: var(--color-black);
+    font-size: 24px;
+    padding: 40px 0 0 45px;
+}
+
+.form-name input {
+    width: 260px;
+    height: 50px;
+    margin: 52px 12px 10px 8px;
+    border: 1px solid var(--color-black);
+    border-radius: 4px;
+    padding: 22px;
+    font-size: 16px;
+}
+
+.form-email input {
+    width: 260px;
+    height: 50px;
+    margin: 10px 12px 20px 8px;
+    border: 1px solid var(--color-black);
+    border-radius: 4px;
+    padding: 22px;
+    font-size: 16px;
+}
+
+.form-name 
+
+.subscription h2 {
+   color: var(--color-black);
+   font-size: 24px;
+   padding: 20px 0 0 45px; 
+}
+
+.card-form {
+    background-color: #F0F0F0;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.plataform {
+    margin: 0 0 0 8px;
+    color: var(--color-black);
+    font-size: 16px;
+}
+
+.receive {
+    padding: 20px 0 25px 0;
+}
+
+.submit button {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    width: 244px;
+    height: 67px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+}
+
+.reset button {
+    background-color: var(--color-white);
+    color: var(--color-pink);
+    width: 244px;
+    height: 67px;
+    margin-bottom: 33px;
+    margin-left: 26px;
+    border-radius: 8px;
+    border: 2px solid var(--color-pink);
+    font-size: 18px;
+}
+
+footer {
+    background-color: var(--color-dark-black);
+    
+}
+
+.footer-content {
+    background-color: var(--color-dark-black);
+    height: 320px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: unset;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram {
+    color: var(--color-white);
+    padding-top: 28px;
+}
+
+.github {
+    color: var(--color-white);
+    padding-top: 10px;
+}
+
+    .guidelines-container {
+        display: none;
+    }
+
+.guidelines p {
+    color: var(--color-white);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.guidelines-reserved p {
+    color: var(--color-white);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.policy a {
+    color: var(--color-white);
+    font-size: 14px;
+    margin: 37px 0 0 0px;
+}
+
+.terms a {
+    color: var(--color-white);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media( min-width: 768px) {
+    
+    .nav-main h1 {
+        color: var(--color-white);
+        margin: 0;
+        font-size: 24px;
+    }
+    
+    .menu-items {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .menu-items li {
+        font-size: 14px;
+        color: var(--color-white);
+        padding-right: 29px;
+    }
+
+    .menu-items ul {
+        display: flex;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text-news h2 {
+        color: var(--color-black);
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .card-news h3 {
+        color: var(--color-green);
+        font-size: 24px;
+        padding: 16px 40px 0 40px ;
+        margin: 0;
+    }
+    
+    .card-news h4 {
+        color: var(--color-black);
+        font-size: 16px;
+        margin: 0;
+        padding-left: 40px;
+    }
+
+    .date {
+        padding: 0 0 0 40px;
+    }
+
+    .date p {
+        color: var(--color-green);
+        font-size: 10px;
+        margin: 0; 
+    }
+    
+    .date hr {
+
+        border-top: 1px solid var(--color-green);
+        width: 95.60%;
+        min-width: 680px;
+    }
+
+    .text-config {
+        color: var(--color-black);
+        font-size: 10px;
+        margin-bottom: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .read-more h4 {
+        color: var(--color-pink);
+        font-size: 14px;
+        padding: 0 0 15px 40px;
+        margin: 0;
+    }
+
+    .load-more button {
+        width: 244px;
+        height: 67px;
+        background-color: var(--color-pink);
+        font-size: 18px;
+        color: var(--color-white);
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        margin-top: 12px;
+        margin-bottom: 34px;
+    }
+
+    .text-games h2 {
+        color: var(--color-green);
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        padding-top: 36px;
+        margin-bottom: 73px;
+    }
+
+    .card-container {
+        background-color: var(--color-white);
+        border-radius: 8px;
+        width: 280px;
+        margin-bottom: 27px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        display: inline-block;
+        margin: 0 15px 27px 15px;
+    }
+    
+    .card-container img {
+        border-radius: 8px 8px 0 0;
+        width: 280px;
+    }
+
+    .subscription h2 {
+        color: var(--color-black);
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .form-name {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-email {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-name input {
+        width: 642px;
+        height: 50px;
+        margin: 52px 12px 10px 8px;
+        border: 1px solid var(--color-black);
+        border-radius: 4px;
+        padding: 22px;
+        font-size: 16px;
+    }
+    
+    .form-email input {
+        width: 642px;
+        height: 50px;
+        margin: 10px 12px 20px 8px;
+        border: 1px solid var(--color-black);
+        border-radius: 4px;
+        padding: 22px;
+        font-size: 16px;
+    }
+
+    .plataform {
+        margin-left: 72px;
+    }
+
+    .form-container {
+        width: 790px;
+        margin-bottom: 61px;
+    }
+
+    .submit-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .submit {
+        margin-right: 25px;
+    }
+
+    .reset {
+        margin-bottom: 19px;
+    }
+
+    .footer-content {
+        background-color: var(--color-dark-black);
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .social  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .github {
+        padding: 0;
+    }
+
+    .guidelines-container {
+        display: flex;
+        color: var(--color-white);
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .guidelines {
+        display: none;
+    }
+
+    .guidelines-reserved {
+        display: none;
+    }
+
+    .policy-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .policy {
+        margin: 0;
+    }
+
+
+    .terms a {
+        margin: 0;
+        margin-bottom: 6px;
+    }
+
+}
